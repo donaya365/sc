@@ -20,8 +20,10 @@ ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
 IPVPS=$(curl -s ipv4.icanhazip.com )
-	echo "--------------- Welcome To Premium Script Menu ---------------"
-	echo "------------------------ Moddified By Mardhex -----------------------"
+clear
+figlet "ENVY TEAM" | lolcat
+	echo "--------------- WELCOME TO PREMIUM SCRIPT MENU ---------------"
+	echo "--------------------- MODIFIED BY CAKILL ---------------------"
 	echo " "
 	cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
 	cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
