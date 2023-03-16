@@ -1,21 +1,3 @@
-
-donaya365
-/
-scriptvps
-Private template
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Settings
-scriptvps/ssh/running.sh
-@donaya365
-donaya365 Add files via upload
- 1 contributor
-327 lines (294 sloc)  13.4 KB
 #!/bin/bash
 CYAN='\e[1;36m'
 GREEN='\033[0;32m'
