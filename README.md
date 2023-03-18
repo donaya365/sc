@@ -1,6 +1,6 @@
 # Script cakill Websocket
 
- <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/Version-senip_1.4-blue.svg"></h2>
+ <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/VERSION-OLD-666-blue.svg"></h2>
 
 ## ⏩ DM ME IF YOU WANT USE THIS SCRIPT... ⏪
 ## JUST DM ME FOR REG IP http://t.me/fromhell26
