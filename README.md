@@ -1,6 +1,6 @@
 # OLD SCRIPT WEBSOCKET :)
 
- <h2 align="center">AutoScript VPN <img src="https://img.shields.io/badge/VERSION-OLD-666-blue.svg"></h2>
+ <h2 align="center">AutoScript VPN <img src="https://github.com/donaya365/sc/blob/main/Screenshot_20230317-083303461.jpg"></h2>
 
 ## ⏩ このスクリプトを使用したい場合は、DM でお知らせください ⏪
 ## 詳細はDMで http://t.me/fromhell26
