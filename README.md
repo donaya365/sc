@@ -1,5 +1,5 @@
 # OLD SCRIPT 🙂
-
+ <h2 align="center">AutoScript VPN <img src="https://github.com/donaya365/sc/blob/main/11740592-preview.mp4"></h2>
  <h2 align="center">AutoScript VPN <img src="https://github.com/donaya365/sc/blob/main/Screenshot_20230317-083303461~2.jpg"></h2>
 
 ## ⏩ このスクリプトを使用したい場合は、DM でお知らせください ⏪
