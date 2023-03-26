@@ -1,5 +1,5 @@
 # OLD SCRIPT 🙂
- <h2 align="center">DONASI NYA TUAN <img src="https://github.com/donaya365/sc/blob/main/qr_KID%20STORE_29.11.22_1669733099.png"></h2>
+ <h2 align="center">ARTINYA APA BANG MESSI <img src="https://github.com/donaya365/sc/blob/main/qr_KID%20STORE_29.11.22_1669733099.png"></h2>
  <h2 align="center">AutoScript VPN <img src="https://github.com/donaya365/sc/blob/main/Screenshot_20230317-083303461~2.jpg"></h2>
 
 ## ⏩ このスクリプトを使用したい場合は、DM でお知らせください ⏪
