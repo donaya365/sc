@@ -5,9 +5,9 @@ NC='\e[0m'
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
 apt install jq curl -y
-DOMAIN=vpn-cakill.coli.ngaceng
+DOMAIN=vpn-cakill.me
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.vpn-cakill.coli.ngaceng
+SUB_DOMAIN=${sub}.vpn-cakill.me
 CF_ID=kidroster55@gmail.com
 CF_KEY=1fa7ccec0343954e2242e221e38a439d20277
 set -euo pipefail
