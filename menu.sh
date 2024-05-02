@@ -24,104 +24,42 @@ clear
 echo -e "\033[0;32m┌───────────────────────────────────────────────────────────┐${NC}"
 figlet -f slant "ENVY TEAM" | lolcat
 echo -e "\033[0;32m└───────────────────────────────────────────────────────────┘${NC}"
-echo -e "\033[0;32m┌───────────────────────────────────────────────────────────┐${NC}"
-echo -e "\033[0;32m│$NC\E[41;1;39m                 VPS / System Information                  \E[0m\033[0;34m│"
-echo -e "\033[0;32m└───────────────────────────────────────────────────────────┘${NC}"
-        echo "┌────────────────────MODIFIED BY CAKILL────────────────────┐"
-        echo " "
-        cname=$( awk -F: '/model name/ {name=$2} END {print name}' /proc/cpuinfo )
-        cores=$( awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo )
-        freq=$( awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo )
-        tram=$( free -m | awk 'NR==2 {print $2}' )
-        swap=$( free -m | awk 'NR==4 {print $2}' )
-        up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
 
-        echo -e "\e[032;1mCPU Model:\e[0m $cname"
-        echo -e "\e[032;1mNumber Of Cores:\e[0m $cores"
-        echo -e "\e[032;1mCPU Frequency:\e[0m $freq MHz"
-        echo -e "\e[032;1mTotal Amount Of RAM:\e[0m $tram MB"
-        echo -e "\e[032;1mTotal Amount Of Swap:\e[0m $swap MB"
-        echo -e "\e[032;1mSystem Uptime:\e[0m $up"                                                                                             
-        echo -e "\e[032;1mIsp Name:\e[0m $ISP"
-        echo -e "\e[032;1mCity:\e[0m $CITY"
-        echo -e "\e[032;1mTime:\e[0m $WKT"
-        echo -e "\e[033;1mIPVPS:\e[0m $IPVPS"
-        date | lolcat
+echo -e "\033[0;32m┌───────────────────────────────────────────────────────────┐${NC}"
+echo -e ""
+
+figlet -f slant "ENVY MENU" | lolcat                                                                                                   
 echo -e "\033[0;32m└───────────────────────────────────────────────────────────┘${NC}"
 
 echo -e "\033[0;32m┌───────────────────────────────────────────────────────────┐${NC}"
 
+echo -e " [\e[36m•1\e[0m] MENU SSH & OVPN"   "        [\e[36m•12\e[0m] MENU WEBMIN"
+
+echo -e " [\e[36m•2\e[0m] MENU WIREGUARD"    "         [\e[36m•13\e[0m] USAGE RAM VPS"
+
+echo -e " [\e[36m•3\e[0m] MENU L2TP & PPTP"  "       [\e[36m•14\e[0m] REBOOT VPS "
+
+echo -e " [\e[36m•4\e[0m] MENU SSTP"         "              [\e[36m•15\e[0m] SPEEDTEST"
+
+echo -e " [\e[36m•5\e[0m] MENU SSR & SHADOWSOCKS"  " [\e[36m•16\e[0m] DISPLAY SYSTEM"
+
+echo -e " [\e[36m•6\e[0m] MENU VMESS/V2RAY"  "       [\e[36m•17\e[0m] INFO SCRIPT"
+
+echo -e " [\e[36m•7\e[0m] MENU VLESS"        "             [\e[36m•18\e[0m] RESTART ALL SERVICE"
+
+echo -e " [\e[36m•8\e[0m] MENU TROJAN"       "            [\e[36m•19\e[0m] MULTILOGIN"
+
+echo -e " [\e[36m•9\e[0m] ADD SUBDOMAIN"     "          [\e[36m•20\e[0m] INSTALL BBR"
+
+echo -e " [\e[36m•10\e[0m] NEW CERT V2RAY"   "        [\e[36m•21\e[0m] ADD ID CLOUDFLARE"
+
+echo -e " [\e[36m•11\e[0m] CHANGE ALL PORT"  "       [\e[36m•22\e[0m] SYSTEM RUNNING"
+
 echo -e ""
-
-echo -e "Menu Utama" | lolcat -a -d 10
-
-echo -e " 1.  Control Panel SSH & OVPN"
-
-echo -e " 2.  Control Panel Wireguard"
-
-echo -e " 3.  Control Panel L2TP & PPTP"
-
-echo -e " 4.  Control Panel SSTP"
-
-echo -e " 5.  Control Panel SSR & Shadowsocks"
-
-echo -e " 6.  Control Panel Vmess/V2ray"
-
-echo -e " 7.  Control Panel Vless"
-
-echo -e " 8.  Control Panel Trojan"
-
-echo -e ""
-
-echo -e "Menu Tambahan" | lolcat -a -d 10
-
-echo -e " 9.   Add Subdomain Host For VPS"
-
-echo -e " 10.  Renew Certificate V2RAY"
-
-echo -e " 11.  Change Port All Account"
-
-echo -e " 12.  Autobackup Data VPS"
-
-echo -e " 13.  Backup Data VPS"
-
-echo -e " 14.  Restore Data VPS"
-
-echo -e " 15.  Webmin Menu"
-
-echo -e " 16.  Limit Bandwith Speed Server"
-
-echo -e " 17.  Check Usage of VPS Ram"
-
-echo -e " 18.  Reboot VPS"
-
-echo -e " 19.  Speedtest VPS"
-
-echo -e " 20.  Information Display System"
-
-echo -e " 21.  Info Script Auto Install"
-
-echo -e " 22.  Restart All Service"
-
-echo -e " 23.  Set Auto Reboot"
-
-echo -e " 24.  Set Multi Login Akun"
-
-echo -e " 25.  Install BBR"
-
-echo -e " 26.  Add ID Cloudfare"
-
-echo -e " 27.  Cloudfare Add-Ons"
-
-echo -e " 28.  Pointing Bug"
-
-echo -e " 29.  Status Tunneling"
-
-echo -e "\e[32m══════════════════════════════════════════\e[m"
 
 echo -e " x.   Exit From Putty / JuiceSSH / Termux"
 
-echo -e "\e[32m══════════════════════════════════════════\e[m"
+echo -e "\033[0;32m└───────────────────────────────────────────────────────────┘${NC}"
 
 echo -e ""
 
